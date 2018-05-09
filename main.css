@@ -1,3 +1,45 @@
 h1 {
-  color: white;
+  color: crimson;
+  background-color: gold;
+  font-size: 300%;
+}
+
+ul {
+  margin: 0px;
+  height: 100%;
+  padding: 0px;
+}
+
+li {
+  style:"list-style-type:none";
+}
+
+li a {
+    display: block;
+    color: indigo;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 200%;
+    border-bottom: px solid #555;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+nav.navigation_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: violet;
+  border: 1px solid #555;
 }
