@@ -2,34 +2,39 @@
 <html lang="en-US">
 <!-- Title of webpage -->
   <head>
-    <title>ShakesPeer</title>
     <link rel="stylesheet" href="style.css">
+    <title>ShakesPeer</title>
   </head>
 
   <body>
-    <!-- header of the page -->
-    <header class="title">
-      <h1>ShakesPeer</h1>
-    </header>
+    <nav class="hori_navigation_bar">
+      <ul>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Notification</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Josh has published a new solution</a>
+            <a href="#">Dima has commented on your solution</a>
+            <a href="Kevin.html">Kevin has published a new solution</a>
+          </div>
+        </li>
+        <!-- header of the page -->
+        <li class="main_menu">
+          <a href="ShakesPeer.html">ShakesPeer</a>
+        </li>
+      </ul>
+    </nav>
     <div class="content">
-      <nav class="hori_navigation_bar">
-        <ul>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Notifications</a>
-          </li>
-        </ul>
-      </nav>
       <!-- navigation box -->
       <nav class="vert_navigation_bar">
         <ul>
           <li>
-            <a  href="#">Task Questions</a>
+            <a href="#">Task Questions</a>
           </li>
           <li>
             <a class="active" style="font-weight:bold" href="#">My Solutions</a>
@@ -41,7 +46,7 @@
             <a href="#">Sheenma</a>
           </li>
           <li>
-            <a href="#">Kevin</a>
+            <a href="Kevin.html">Kevin</a>
           </li>
           <li>
             <a href="#">Jodie</a>
@@ -67,5 +72,24 @@
       </div>
       <!-- feedback container -->
     </div>
+
+
+
+
+
+    <!-- drop down script -->
+    <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
   </body>
 </html>
