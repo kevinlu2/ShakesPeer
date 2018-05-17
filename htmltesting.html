@@ -2,11 +2,115 @@
 <html lang="en-US">
   <head>
     <title>testing</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="csstesting.css">
   </head>
   <body>
-    <h1 style="background-color: blue">This is testing</h1>
-    <p>this is my first sentence</p>
+
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">ShakesPeer</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Notification <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1-1</a></li>
+              <li><a href="#">Page 1-2</a></li>
+              <li><a href="#">Page 1-3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Group Memebers</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="side-bar">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a data-toggle="pill" href="#MySolution">My Solutions</a></li>
+        <li><a data-toggle="pill" href="#Jodie">Jodie</a></li>
+        <li><a data-toggle="pill" href="#Sheen">Sheen</a></li>
+        <li><a data-toggle="pill" href="#Josh">Josh</a></li>
+        <li><a data-toggle="pill" href="#Lizzie">Lizzie</a></li>
+        <li><a data-toggle="pill" href="#Shenma">Shenma</a></li>
+        <li><a data-toggle="pill" href="#Dima">Dima</a></li>
+      </ul>
+    </div>
+
+    <div class="container-fluid">
+      <div class="col-lg-10">
+        <div class="tab-content">
+          <div id="MySolution" class="tab-pane fade in active">
+            <div class="col-lg-10 text-left">
+              <h3>My Solution</h3>
+              <p>
+                A put option is a financial instrument that gives its holder the right to sell some underlying asset on or before a specified date at an agreed price. Where by the underlying asset can be anything.
+              </p>
+              <p>
+                From NZ IAS 32 a financial instrument is a contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. In this case a put option gives rise to a financial liability to the writer (an entity) when the option is exercised. The writer would then have a contractual obligation to deliver cash or another financial asset to the holder (another entity). The holder (an entity) has a financial asset as it has the option to execute the options contractual right to exchange financial assets or liabilities with another entity(writer) under conditions that are potentially favorable. A put option fulfils the requirements of a financial instrument.
+              </p>
+              <p>
+                Specifically, it is a derivative financial instrument as its value is derived from an underlying asset (the underlying asset the put option is selling), it is settled on a specific future date and it can require no initial net investment.
+              </p>
+            </div>
+            <div class="col-lg-2">
+              <div class="container-fixed">
+                <form>
+                  <div class="form-group">
+                    <label for="comment">Feedback Please:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div id="Jodie" class="tab-pane fade">
+            <h3>Jodie's Solution</h3>
+            <p>
+              Firms have an incentive to align their interest with debtholders. A key assumption from the agency theory is that individuals are rational self-interested wealth maximisers which in turn leads to the agency problem (people being opportunistic). In a debt contract, the cost of being opportunistic falls entirely on the firm. This is because debt holders are not naïve and are able to price protect themselves, fully if in a perfect world, by negotiating restrictive covenants in their debt contracts that prevent/discourage the firm from being opportunistic. Such restrictive covenants are: dividend payout restrictions whilst there is interest unpaid (stops excess dividends), sale of major assets requires approval from debt holder, limit to taking on additional debt with higher or same priority (helps prevent claim dilution) and accounting-based restrictions (e.g. Maintain the leverage ratio (Total Liability/Total Tangible Assets) > 0.6). These covenants provide some assurance to debt holders that firms will not be opportunistic and also able to repay its debt and interest. Firms can further align their interest with debtholders by hiring auditors, a third party, to show that they are complying with the covenants. Debt holders are price protected because if firms breach the covenants then the costs associated with the breach lies solely on the firm. Example of these costs would be a penalty fee to the firm, renegotiation costs which may include higher interests and more restrictive covenants or a force repayment. This leads to firms unable to maximize value for their shareholders whilst debt holders have their investment still protected. So, by negotiating debt contracts with restrictive covenants, this will satisfy both parties. Hence why firms have an incentive to align its interest with debt holders.
+            </p>
+            <p>
+              Intangible asset is not included in the denominator for calculating the debt/leverage ratio because the inclusion is considered inefficient in calculating the leverage ratio as it is not a good source of security or support against debt. Intangible assets are also very difficult to measure as it has no physical form and the value of the asset is very volatile, as it is very sensitive to changes (especially if the firm is facing financial distress).  Also, the inclusion of intangible assets may allow the firm to take on more liabilities, and not be in breach of their debt covenants. The leverage ratio measures the firm’s liquidity to repay its liabilities, the inclusion of intangible asset would not be efficient as it is difficult to sell thus would be a poor representation of liquidity.
+            </p>
+          </div>
+          <div id="Sheen" class="tab-pane fade">
+            <h3>Sheen's Solution</h3>
+            <p>In this paper, I will argue that in New Zealand’s current predicament, the nations flag should not change but be open to it in the future. The premises for this are that Prime Minister John Key’s reason for a flag change is not a strong enough reason to justify a flag change. It also has been heavily publicized that the flag should not change with many citizens voicing their opinions to not change the flag. There are other pressing issues facing New Zealand and the flag change is not one. New Zealand is still a dominion of the British Empire. With these reasons I believe that the flag should not be change. Here I will elaborate my first premise. According to Prime Minister John Key, he feels that the Australian and New Zealand flag are too similar and that other countries leaders get confused between the two (Moir, 2015). This is evident since PM John Key has been seen being photographed in a newspaper with the Australian Flag during international visits. However, the previous PM of Australia, Tony Abbott, had also been nearly put in a similar situation with the New Zealand flag. PM John Key’s argument isn’t a strong argument as being photographed with your closest ally and neighboring country’s flag is a petty reason for a flag change (Moir, 2015). Other countries leader’s unable to distinguish the difference between New Zealand’s flag and Australia’s is simply a misunderstanding. A misunderstanding does not justify the need to change the country’s flag due to his own embarrassment or others misunderstanding. PM John Key’s party members can simply resolve this by simply notifying the foreign country of our flag instead of leaving them to decipher the difference between Australia and New Zealand flags. In this paragraph, I will defend my second premise. It can be seen that the majority of New Zealand citizens are against the referendum to change the flag. Many people have taken to social media to voice their opinion on this matter and most lean towards not changing the flag. Referencing to a article by Stuff NZ it said that “nearly two-thirds of kiwis want to keep New Zealand’s current flag” (Sachdeva, 2016). There are also citizens who do not par take with social media. Such citizens are Veterans, voiced by the RSA, they fought for and under the current flag to which to them it represents our independence and heritage. To them changing the flag would be seen as a lost to our heritage and to those sacrificed for our independence. A democratic government should to listen and consider the voices of their citizens (Diamond, 2004). This is referenced from a document written in 2004 by Larry Diamond, a Senior at Stanford University and founding co-editor of the journal of Democracy. 2004 may not seem current but the principles of democracy do not change often and considering when democracy was founded, 2004 can be seen as current.
+            </p>
+            <p>My third premise shows that there are several other important issues currently facing New Zealand such as the Christchurch rebuild, poverty among the young and the unemployment rate. The changing of the flag is not one of them, one could argue that it isn’t even an issue. By treating this as an important issue the government is wasting valuable resources such as money, labour and time that would otherwise be allocated elsewhere to help solve one of the many important issues facing New Zealand. If the flag change were to occur, the costs will increase as New Zealand government departments would require to change the flag and also the New Zealand passports. This would be on top of the already dear cost the government has spent on the proposal of the flag and implementing the referendum. If there comes a time in the future, where other pressing issues are solved, then it may be more of a suitable time for a flag change referendum. My fourth and last premise is that New Zealand is technically not separated from the British Colonies. It is assumed that New Zealand is independent but New Zealand has a status as a dominion of the British Empire. (Dalley, McLean, Atkinson, 2014) One of the main premises for those arguing for the flag to change is that New Zealand’s flag is too colonial. Though we are not a colony of the British Empire we are still a dominion. New Zealand is gradually heading towards independence, changing the flag does not grant our independence. Rather New Zealand government should propose to revoke the 1907 royal proclamation of New Zealand’s dominion status.
+            </p>
+            <p>In conclusion, it can be seen that it is best not to change the flag in New Zealand’s current state. The reasons provided by John Key does not justify the magnitude of change he wants. Majority of the population are against flag change. There are more pressing issues at hand facing New Zeeland, such as the Christchurch Earthquake, and the need for a new flag is not one. Lastly New Zealand is technically not independent but only recognized as independent. With these premises I concluded that the flag should not change of now.
+            </p>
+          </div>
+          <div id="Josh" class="tab-pane fade">
+            <div class="col-md-8 text-left">
+              <h3>Menu 1</h3>
+              <p>Some content in menu 1.</p>
+            </div>
+            <div class="col-sm-2 sidenav">
+              <div class="feedback">
+                <h2>HELP</h2>
+              </div>
+            </div>
+          </div>
+          <div id="Lizzie" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Some content in menu 2.</p>
+          </div>
+          <div id="Shenma" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Some content in menu 2.</p>
+          </div>
+          <div id="Dima" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Some content in menu 2.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>

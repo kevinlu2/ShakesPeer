@@ -1,0 +1,69 @@
+* {
+  border-radius: 0 !important;
+}
+
+/* NAVBAR */
+a.navbar-brand {
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+nav.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+nav.navbar ul.nav {
+  float: right;
+}
+
+nav.navbar ul.nav li a{
+  font-size: 110%;
+}
+
+
+/* PILL NAV */
+div.side-bar {
+  float: left;
+  height: 845px;
+  background-color: inherit;
+}
+
+ul.nav-pills {
+  float: left;
+  width: 230px;
+}
+
+ul.nav-pills li {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+ul.nav-pills li a{
+  font-size: 150%;
+  text-align: left;
+}
+ul.nav-pills li.active a{
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+}
+ul.nav-pills li.active a:hover{
+  background-color: white;
+  color:black;
+}
+
+.nav-pills a {
+    color: black;
+}
+
+.nav-pills a:hover {
+    color: #560000;
+    border-radius: 0px;
+}
+
+.col-sm-2{
+  margin:0px;
+  padding: 0px;
+}
